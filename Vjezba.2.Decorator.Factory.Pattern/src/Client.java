@@ -5,20 +5,20 @@ public class Client {
 		
 		
 		WebBrowser web=new WebBrowser();
+		String[] ext= {"pdf","doc","ppt"};
 		
-		System.out.println("*******************");
-		web.fetchDocument("pdf");
-		web.openDocument();
-		web.saveDocument();
-		web.closeDocument();
 		
-		System.out.println("*******************");
-
-		web.fetchDocument("doc");
-		web.openDocument();
-		web.saveDocument();
-		web.closeDocument();
-
+		for(int i=0;i<4;i++) {
+			
+			System.out.println("*******************");
+			
+			web.fetchDocument(ext[ThreadLocalRandom.current().nextInt(0,3)]);
+			web.openDocument();
+			web.saveDocument();
+			web.closeDocument();
+		}
+		
+		
 	}
 
 }
