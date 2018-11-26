@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.concurrent.ThreadLocalRandom;
 
 public class Client {
 
@@ -5,6 +7,8 @@ public class Client {
 		
 		
 		WebBrowser web=new WebBrowser();
+		//AbsDocument file;
+		
 		String[] ext= {"pdf","doc","ppt"};
 		
 		
@@ -12,13 +16,12 @@ public class Client {
 			
 			System.out.println("*******************");
 			
-			web.fetchDocument(ext[ThreadLocalRandom.current().nextInt(0,3)]);
-			web.openDocument();
-			web.saveDocument();
-			web.closeDocument();
+			//file=web.fetchDocument(ext[ThreadLocalRandom.current().nextInt(0,3)]);
+			web.runBrowser(web.fetchDocument(ext[ThreadLocalRandom.current().nextInt(0,3)]));
 		}
 		
 		
+
 	}
 
 }

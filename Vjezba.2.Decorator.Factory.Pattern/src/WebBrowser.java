@@ -1,11 +1,16 @@
 
 public class WebBrowser implements AbsWebBrowser {
 
-	private static AbsDocument absDoc;
+	public void runBrowser(AbsDocument absDoc) {
+		
+		openDocument(absDoc);
+		saveDocument(absDoc);
+		closeDocument();
+	}
 	
 
 	@Override
-	public void openDocument() {
+	public void openDocument(AbsDocument absDoc) {
 
 		try {
 			Thread.sleep(2000);
@@ -20,12 +25,12 @@ public class WebBrowser implements AbsWebBrowser {
 	@Override
 	public void closeDocument() {
 		System.out.println("Closing document ...");
-		absDoc.close();
+		//absDoc.close();
 
 	}
 
 	@Override
-	public void saveDocument() {
+	public void saveDocument(AbsDocument absDoc) {
 		absDoc.save();
 
 	}
@@ -40,26 +45,26 @@ public class WebBrowser implements AbsWebBrowser {
 
 			DocPlugIn doc = new DocPlugIn();
 			
-			absDoc=doc.getAbsDoc();
+			return doc.getAbsDoc();
 			
-			break;
+			//break;
 		case "pdf":
 
 			PdfPlugIn pdf = new PdfPlugIn();
-			absDoc=pdf.getAbsDoc();
+			return pdf.getAbsDoc();
 			
-			break;
+			//break;
 		case "ppt":
 
 			PptPlugIn ppt = new PptPlugIn();
-			absDoc=ppt.getAbsDoc();
+			return ppt.getAbsDoc();
 			
-			break;
+			//break;
 		default:
 			break;
 		}
 
-		return absDoc;
+		return null;
 	}
 
 }

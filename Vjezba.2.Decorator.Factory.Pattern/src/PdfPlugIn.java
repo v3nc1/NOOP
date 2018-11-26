@@ -9,7 +9,7 @@ public class PdfPlugIn extends WebBrowser {
 		absDoc = new Pdf();
 	}
 
-	
+
 
 	public AbsDocument getAbsDoc() {
 		return absDoc;
