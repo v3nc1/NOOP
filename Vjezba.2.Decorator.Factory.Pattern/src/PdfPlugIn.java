@@ -9,12 +9,7 @@ public class PdfPlugIn extends WebBrowser {
 		absDoc = new Pdf();
 	}
 
-	@Override
-	public void saveDocument() {
-		
-		absDoc.save();
-		
-	}
+	
 
 	public AbsDocument getAbsDoc() {
 		return absDoc;
