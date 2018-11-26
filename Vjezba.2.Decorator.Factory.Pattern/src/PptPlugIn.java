@@ -8,12 +8,7 @@ public class PptPlugIn extends WebBrowser {
 		absDoc = new Ppt();
 	}
 
-	@Override
-	public void saveDocument() {
-		
-		absDoc.save();
-		
-	}
+	
 
 	public AbsDocument getAbsDoc() {
 		return absDoc;
