@@ -8,12 +8,6 @@ public class DocPlugIn extends WebBrowser {
 		absDoc = new Doc();
 	}
 
-	@Override
-	public void saveDocument() {
-		
-		absDoc.save();
-		
-	}
 
 	public AbsDocument getAbsDoc() {
 		return absDoc;
