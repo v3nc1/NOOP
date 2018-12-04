@@ -1,11 +1,10 @@
 
-public class Suspension implements Auto {
+public class Suspension extends CarUpgrade {
 
-	Auto auto;
-
+	
 	public Suspension(Auto auto) {
 
-		this.auto = auto;
+		super(auto);
 
 	}
 

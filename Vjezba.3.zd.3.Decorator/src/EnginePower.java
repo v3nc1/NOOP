@@ -1,11 +1,11 @@
 
-public class EnginePower implements Auto {
+public class EnginePower extends CarUpgrade {
 
-	Auto auto;
+	
 
 	public EnginePower(Auto auto) {
 
-		this.auto = auto;
+		super(auto);
 
 	}
 

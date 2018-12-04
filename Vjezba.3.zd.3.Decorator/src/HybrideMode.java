@@ -1,11 +1,11 @@
 
-public class HybrideMode implements Auto {
+public class HybrideMode extends CarUpgrade {
 
-	Auto auto;
+	
 
 	public HybrideMode(Auto auto) {
 
-		this.auto = auto;
+		super(auto);
 
 	}
 

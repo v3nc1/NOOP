@@ -1,11 +1,11 @@
 
-public class GlassMode implements Auto {
+public class GlassMode extends CarUpgrade {
 
-	Auto auto;
+	
 
 	public GlassMode(Auto auto) {
 
-		this.auto = auto;
+		super(auto);
 
 	}
 
