@@ -1,3 +1,4 @@
+package Writer;
 
 public class AdapterNovel implements Writer {
 

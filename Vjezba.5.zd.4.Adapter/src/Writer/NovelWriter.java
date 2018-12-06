@@ -1,3 +1,4 @@
+package Writer;
 
 public class NovelWriter implements Writer {
 
