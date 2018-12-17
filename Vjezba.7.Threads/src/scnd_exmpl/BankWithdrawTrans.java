@@ -22,15 +22,11 @@ public class BankWithdrawTrans implements Runnable {
 			if (bnkAcc.getBalance() < 0) {
 				System.out.println("Overdrawn!!!!");
 			}
-			amount = ThreadLocalRandom.current().nextInt(1, 1000);
+			amount = ThreadLocalRandom.current().nextInt(1, 250);
 			
 			makeWithdrawal(amount);
 
 			
-		}try {
-			Thread.currentThread().sleep(50);
-		} catch (InterruptedException e) {
-			e.printStackTrace();
 		}
 	}
 

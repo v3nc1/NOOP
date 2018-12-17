@@ -7,39 +7,36 @@ import javax.swing.plaf.synth.SynthSpinnerUI;
 public class BankDepositTrans implements Runnable {
 	
 	BankAccount bnkAcc;
-	private int counter;
+	
 	
 	
 
 	public BankDepositTrans(BankAccount bnkAcc) {
 		
 		this.bnkAcc = bnkAcc;
-		counter=0;
+		
 	}
 
 
 	@Override
-	public synchronized void run() {
+	public void run() {
 		
-		counter=bnkAcc.getTrans_counter();
-		
-		
-		if (counter==10) {
-			
+			System.out.println("POZVAN");
 			makeDeposit();
-		}
-		
-		
-		
 		
 
 	}
 	
 	
-	private  void makeDeposit() {
+	private synchronized void makeDeposit() {
 
-		int deposit = ThreadLocalRandom.current().nextInt(500, 2000);
+		int deposit = ThreadLocalRandom.current().nextInt(500, 5000);
+		while(bnkAcc.getTrans_counter()<10) {
+			
+		}
+			
 		bnkAcc.updateFromBalance(deposit);
+		System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
 		System.out.println("Deposit " + deposit + " to account made...");
 
 	}

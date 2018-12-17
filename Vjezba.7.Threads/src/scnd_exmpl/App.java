@@ -21,13 +21,11 @@ public class App {
 		client2.setName("Wife");
 		client3.setName("Deposit");
 		
+		client3.start();
 		client1.start();
-		
-	
 		client2.start();
 		
 		
-		client3.start();
 		
 		
 		

@@ -19,7 +19,7 @@ public class BankAccount {
 		return balance;
 	}
 
-	public void withdrawFromBalance(double amnt) {
+	public synchronized void withdrawFromBalance(double amnt) {
 		balance = balance - amnt;
 		trans_counter+=1;
 		System.out.println(trans_counter +" No. Transaction "+   " was made...");
@@ -27,11 +27,11 @@ public class BankAccount {
 		
 	}
 	
-	public void updateFromBalance(double amnt) {
+	public synchronized void updateFromBalance(double amnt) {
 		balance = balance + amnt;
 	}
 
-	public int getTrans_counter() {
+	public synchronized int getTrans_counter() {
 		return trans_counter;
 	}
 	

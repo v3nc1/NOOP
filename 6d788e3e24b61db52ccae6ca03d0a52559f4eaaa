@@ -1,0 +1,177 @@
+[33mcommit 9106b9ad5030cf18639346ebc154fca4fdbc00d7[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: venci-ivos <venci-ivos@users.noreply.github.com>
+Date:   Wed Dec 12 16:35:42 2018 +0100
+
+    Ver.2
+
+[33mcommit 3848f470d5859851b25d3c4d46d3ba2c1f732b34[m
+Author: venci-ivos <venci-ivos@users.noreply.github.com>
+Date:   Wed Dec 12 15:26:28 2018 +0100
+
+    Functional
+
+[33mcommit 4b8f838f6e200017f0f016c088311e6139c0aadf[m
+Merge: 580abd2 2cc8763
+Author: Ja <Ja@ja>
+Date:   Wed Dec 12 15:25:08 2018 +0100
+
+    synced
+
+[33mcommit 580abd226102f3c22dab36c2c17704f5ff3db616[m
+Author: venci-ivos <venci-ivos@users.noreply.github.com>
+Date:   Wed Dec 12 15:21:34 2018 +0100
+
+    Synchronized files
+
+[33mcommit 2cc87636bb52002f203df0069cf8f1d8d53d856a[m
+Author: student <student@PC-11>
+Date:   Tue Dec 11 18:18:51 2018 +0100
+
+    Ver.2
+    
+    Synchronization of deposit on 10th withdrawel
+
+[33mcommit 6d788e3e24b61db52ccae6ca03d0a52559f4eaaa[m
+Author: student <student@PC-11>
+Date:   Mon Dec 10 19:50:20 2018 +0100
+
+    Ver.1
+
+[33mcommit e72c0692b76dbde717fd0b0aa3dd4889c633d0d6[m
+Author: student <student@PC-11>
+Date:   Thu Dec 6 19:45:31 2018 +0100
+
+    Ver.1
+
+[33mcommit 99142150557bcbaaa90310855646dbb0b4e055f7[m
+Author: student <student@PC-11>
+Date:   Thu Dec 6 19:44:41 2018 +0100
+
+    Ver.1
+
+[33mcommit 5aa760f8766f3ce7a3cecfd3719d39a08c247058[m
+Author: student <student@PC-11>
+Date:   Thu Dec 6 17:50:13 2018 +0100
+
+    Ver.2 - Packet change
+
+[33mcommit a7a1bf561ecf23f9c19f7f43cedca591f2561f5b[m
+Merge: 7e80261 da188cb
+Author: student <student@PC-11>
+Date:   Thu Dec 6 17:43:37 2018 +0100
+
+    Merge branch 'master' of https://github.com/venci-ivos/NOOP.git
+
+[33mcommit 7e802615ea5b49d3a3c528941e5af72e5e332583[m
+Author: student <student@PC-11>
+Date:   Thu Dec 6 17:39:41 2018 +0100
+
+    Ver.1
+
+[33mcommit da188cb07b1815849269f20a7d3243ec636c5aa1[m
+Author: venci-ivos <venci-ivos@users.noreply.github.com>
+Date:   Tue Dec 4 17:02:57 2018 +0100
+
+    UML
+
+[33mcommit d321a98c24bf96bb81ba6069c45cb2832a0d264c[m
+Author: venci-ivos <venci-ivos@users.noreply.github.com>
+Date:   Tue Dec 4 16:59:21 2018 +0100
+
+    Added abstract class.
+
+[33mcommit 2488aa02781e216132abb5f343023dc76aac734b[m
+Author: venci-ivos <35291480+venci-ivos@users.noreply.github.com>
+Date:   Mon Dec 3 19:44:22 2018 +0100
+
+    Add files via upload
+
+[33mcommit 3e92fd6c8016aec54df8abe46c772b0001b8feba[m
+Author: venci-ivos <35291480+venci-ivos@users.noreply.github.com>
+Date:   Mon Dec 3 19:36:32 2018 +0100
+
+    Add files via upload
+
+[33mcommit d94d21eaacad30f477343a13734ec421d2ba24a1[m
+Author: venci-ivos <35291480+venci-ivos@users.noreply.github.com>
+Date:   Mon Nov 26 22:41:54 2018 +0100
+
+    Add files via upload
+
+[33mcommit e0a22d6db671af9a4e4c150e14d0083e9734980f[m
+Author: venci-ivos <35291480+venci-ivos@users.noreply.github.com>
+Date:   Mon Nov 26 19:44:25 2018 +0100
+
+    Add files via upload
+
+[33mcommit c51dd550fd7936957f9fab67c826887f3103ff7a[m
+Author: venci-ivos <35291480+venci-ivos@users.noreply.github.com>
+Date:   Mon Nov 26 15:26:50 2018 +0100
+
+    Add files via upload
+
+[33mcommit 920b2db519309499cfb305fc2099f032fca24064[m
+Author: venci-ivos <35291480+venci-ivos@users.noreply.github.com>
+Date:   Mon Nov 26 14:45:53 2018 +0100
+
+    Update PptPlugIn.java
+
+[33mcommit ad493f33d40fb57e1ff3876e74c68cc5b6c04e8e[m
+Author: venci-ivos <35291480+venci-ivos@users.noreply.github.com>
+Date:   Mon Nov 26 14:45:33 2018 +0100
+
+    Update PdfPlugIn.java
+
+[33mcommit 05ffae59a962ee85d719718435986e8f1e83ea1a[m
+Author: venci-ivos <35291480+venci-ivos@users.noreply.github.com>
+Date:   Mon Nov 26 14:45:13 2018 +0100
+
+    Update DocPlugIn.java
+
+[33mcommit 1fb5bd7def264c31f690bc90f2ee8a7214e73bfd[m
+Author: venci-ivos <35291480+venci-ivos@users.noreply.github.com>
+Date:   Mon Nov 26 14:44:49 2018 +0100
+
+    Update Client.java
+
+[33mcommit 279502131c1a34b8cfd663829b1afa30f877069b[m
+Author: venci-ivos <35291480+venci-ivos@users.noreply.github.com>
+Date:   Tue Nov 20 12:16:34 2018 +0100
+
+    Add files via upload
+
+[33mcommit 02bc645f23e46fd7fb3524d221b40a44efebd1ef[m
+Author: venci-ivos <35291480+venci-ivos@users.noreply.github.com>
+Date:   Mon Nov 19 19:44:57 2018 +0100
+
+    Add files via upload
+
+[33mcommit cc632bd60c9ae82be90b04bd03aee2dfea2c939e[m
+Author: venci-ivos <35291480+venci-ivos@users.noreply.github.com>
+Date:   Mon Nov 12 19:47:15 2018 +0100
+
+    Add files via upload
+
+[33mcommit b33558fee851191beadd862e8b83e41d7ecf4966[m
+Author: venci-ivos <35291480+venci-ivos@users.noreply.github.com>
+Date:   Mon Nov 12 17:43:43 2018 +0100
+
+    Delete Vjezba4.Factory
+
+[33mcommit 5179cc432c43e49ab4e0eb80f3d0ec9e07da2434[m
+Author: venci-ivos <35291480+venci-ivos@users.noreply.github.com>
+Date:   Mon Nov 12 17:43:25 2018 +0100
+
+    Create Vjezba4.Factory
+
+[33mcommit 2dd059b52d8c0a62f472050fd726bd5b8b2b6ca1[m
+Author: venci-ivos <35291480+venci-ivos@users.noreply.github.com>
+Date:   Mon Nov 5 19:42:00 2018 +0100
+
+    Add files via upload
+
+[33mcommit 5400af0c173de19a8fb4b582e4a22b2a02001599[m
+Author: venci-ivos <35291480+venci-ivos@users.noreply.github.com>
+Date:   Wed Oct 31 10:59:41 2018 +0100
+
+    Add files via upload

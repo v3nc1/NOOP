@@ -4,7 +4,7 @@ public class KnightFirstLvl implements Knight {
 	
 	Knight knight;
 	
-	
+	int b;
 	
 
 	public KnightFirstLvl(Knight knight) {
