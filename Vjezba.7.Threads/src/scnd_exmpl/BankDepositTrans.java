@@ -20,8 +20,10 @@ public class BankDepositTrans implements Runnable {
 
 	@Override
 	public void run() {
+
+		System.out.println("POZVAN");
 		
-			System.out.println("POZVAN");
+
 			makeDeposit();
 		
 
@@ -30,15 +32,23 @@ public class BankDepositTrans implements Runnable {
 	
 	private synchronized void makeDeposit() {
 
+		while(bnkAcc.getTrans_counter()<10) {
+			
+			
+		}
+		
+
+
 		int deposit = ThreadLocalRandom.current().nextInt(500, 5000);
 		while(bnkAcc.getTrans_counter()<10) {
 			
 		}
 			
 		bnkAcc.updateFromBalance(deposit);
-		System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
-		System.out.println("Deposit " + deposit + " to account made...");
 
+		System.out.println(">>>>>>>>>Deposit " + deposit + " to account made...");
+		System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+		
 	}
 
 

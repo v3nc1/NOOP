@@ -1,5 +1,7 @@
 package scnd_exmpl;
 
+import javax.swing.plaf.synth.SynthSpinnerUI;
+
 public class BankAccount {
 	
 	private double balance;
@@ -22,7 +24,7 @@ public class BankAccount {
 	public synchronized void withdrawFromBalance(double amnt) {
 		balance = balance - amnt;
 		trans_counter+=1;
-		System.out.println(trans_counter +" No. Transaction "+   " was made...");
+		System.out.println(trans_counter +"  Transaction "+   " was made...");
 		
 		
 	}

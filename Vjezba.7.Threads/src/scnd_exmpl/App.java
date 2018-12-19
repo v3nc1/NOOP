@@ -22,7 +22,10 @@ public class App {
 		client3.setName("Deposit");
 		
 		client3.start();
+
+		
 		client1.start();
+
 		client2.start();
 		
 		
