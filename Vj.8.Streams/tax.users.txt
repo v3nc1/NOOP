@@ -1,0 +1,4 @@
+\n*****************
+No. Customer: 1\nGrossincom: 1000.0\nDependents: 2\nState: Lièko Senjaska\nTax: 50.0$\nTax in Euros: 40.0\n*****************
+No. Customer: 2\nGrossincom: 1500.0\nDependents: 3\nState: Zadarska\nTax: 75.0$\nTax in Euros: 60.0\n*****************
+No. Customer: 3\nGrossincom: 2500.0\nDependents: 4\nState: Splitsko Dalmatinska\nTax: 125.0$\nTax in Euros: 100.0
